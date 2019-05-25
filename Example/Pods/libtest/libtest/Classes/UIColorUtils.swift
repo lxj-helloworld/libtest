@@ -12,7 +12,7 @@ import UIKit
 extension UIColor {
     
     //  把hex颜色转为UIColor
-    public class func colorWithHexString(hex:String,alpha: CGFloat = 1) ->UIColor {
+    class func colorWithHexString(hex:String,alpha: CGFloat = 1) ->UIColor {
         var cString: String = hex.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines) //去掉空格及换行
         if cString.count < 6 {
             return UIColor.black
@@ -44,9 +44,8 @@ extension UIColor {
         return UIColor(red: CGFloat(r)/255.0, green: CGFloat(g)/255.0, blue: CGFloat(b)/255.0, alpha: alpha)
     }
     
-   //颜色转换为图片 普利策
-
-    public class func imageFromColor(color: UIColor, viewSize: CGSize) -> UIImage{
+   //颜色转换为图片
+   class func imageFromColor(color: UIColor, viewSize: CGSize) -> UIImage{
         let rect: CGRect = CGRect(x: 0, y: 0, width: viewSize.width, height: viewSize.height)
         UIGraphicsBeginImageContext(rect.size)
         let context: CGContext = UIGraphicsGetCurrentContext()!
@@ -60,7 +59,7 @@ extension UIColor {
 }
 
 extension CGColor{
-    public class func CGColorFromRGB(rgbValue: UInt) -> CGColor {
+    class func CGColorFromRGB(rgbValue: UInt) -> CGColor {
         return UIColor(
             red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
