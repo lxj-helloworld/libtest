@@ -8,5 +8,5 @@
 import Foundation
 
 class File{
-    let test = "dsfsfsf"
+    let test = "rwerwrw"
 }

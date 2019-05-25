@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000813C22299283B00E4B835 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000813C12299283B00E4B835 /* File.swift */; };
+		000813C42299289500E4B835 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000813C32299289500E4B835 /* File.swift */; };
 		0DD4183089B3720B8B22DE275C5DEFD6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD550CD9E0E71A06CA1B39A8C8656BD /* SwiftSupport.swift */; };
 		13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = F68535060A25C34A972E98EA1AC4848E /* UIImage+Compare.m */; };
 		13F099AA08945421C3B9DD18936A6879 /* Pods-libtest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BBB65FFBDBF02D87FAF99CC931A59A /* Pods-libtest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,7 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000813C12299283B00E4B835 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		000813C32299289500E4B835 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		024A95DF4B40EB5F0072A688755D8A44 /* libtest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libtest-dummy.m"; sourceTree = "<group>"; };
 		048E0CEE2451A422C615416955788942 /* Pods_libtest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libtest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A679726BF7E7092E1D11D326A5F05D /* Pods-libtest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libtest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -327,8 +327,8 @@
 			isa = PBXGroup;
 			children = (
 				AD52384CFCF6103AF2D1B0782ABE3481 /* UIColorUtils.swift */,
-				000813C12299283B00E4B835 /* File.swift */,
 				476B46DE33805212F5751E7A8045E61C /* Support Files */,
+				000813C32299289500E4B835 /* File.swift */,
 			);
 			path = libtest;
 			sourceTree = "<group>";
@@ -540,7 +540,7 @@
 				35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */,
 				929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */,
 				0DD4183089B3720B8B22DE275C5DEFD6 /* SwiftSupport.swift in Sources */,
-				000813C22299283B00E4B835 /* File.swift in Sources */,
+				000813C42299289500E4B835 /* File.swift in Sources */,
 				D84D626FC6A666332367C6375B8D6D1E /* UIApplication+StrictKeyWindow.m in Sources */,
 				13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */,
 				2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */,
