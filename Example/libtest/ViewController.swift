@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        UIColor.CG
+        print("Hello.helloString = \(File.terst)")
+        
     }
 
     override func didReceiveMemoryWarning() {
