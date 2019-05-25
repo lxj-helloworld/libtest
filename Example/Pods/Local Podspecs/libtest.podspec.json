@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of libtest.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xiaojin20135@live.com/libtest",
+  "homepage": "https://github.com/lxj-helloworld/libtest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xiaojin20135@live.com": "lixiaojin@topscomm.com"
   },
   "source": {
-    "git": "https://github.com/xiaojin20135@live.com/libtest.git",
+    "git": "https://github.com/lxj-helloworld/libtest.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'libtest_Example' do
-  pod 'libtest', :path => '../'
+  pod 'libtest', :podspec => '../libtest.podspec'
 
   target 'libtest_Tests' do
     inherit! :search_paths
