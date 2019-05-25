@@ -327,8 +327,8 @@
 			isa = PBXGroup;
 			children = (
 				AD52384CFCF6103AF2D1B0782ABE3481 /* UIColorUtils.swift */,
-				476B46DE33805212F5751E7A8045E61C /* Support Files */,
 				000813C32299289500E4B835 /* File.swift */,
+				476B46DE33805212F5751E7A8045E61C /* Support Files */,
 			);
 			path = libtest;
 			sourceTree = "<group>";
